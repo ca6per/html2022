@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.big {
+    width: 50%;
+    height: 600px;
+    background: #06bcd4;
+
+}
+
+.double {
+    width: 100%;
+    height: 50%;
+    background: #f7a22f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.box{
+    width: 10%;
+    height: 90px;
+    background: darkblue;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 10px;
+
+    position: relative;
+
+    top:150px;
+
+    border-radius: 15%;
+}

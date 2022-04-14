@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+}
+.box{
+    background: #ffffff;
+    height: 800px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child{
+    background: white;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    position: relative;
+}
+.round {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+
+    position: absolute;
+
+    top: -50px;
+}
+.fa-desktop{
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-size: 50px;
+    color: orange;
+
+}
+p{
+    font-size: 30px;
+    margin-top: 100px;
+    color: black;
+}
+.txt{
+    font-size: 20px;
+    color: gray;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.button{
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+o{
+    font-size: 25px;
+    color: black;
+}
+
+.fa-bitcoin{
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-size: 50px;
+    color: orange;
+}
+.fa-martini-glass-empty{
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-size: 50px;
+    color: orange;
+}

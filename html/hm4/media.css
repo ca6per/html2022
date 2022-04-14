@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px){
+
+    .global-wrapper_b_h{
+    flex-direction: column;
+
+    }
+
+    .two_box_wrapper{
+        width: 100%;
+    }
+    .h{
+        width: 100%;
+    }
+}

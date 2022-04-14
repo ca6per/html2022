@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    height: 420px;
+    width: 700px;
+    background: #06bcd4;
+
+    display: flex;
+
+
+}
+
+.left-container {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 5px;
+
+
+}
+
+.right-container {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+
+.card {
+    width: 300px;
+    height: 100px;
+    background: whitesmoke;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+
+}
+
+.fa-quote-right {
+
+    width: 80px;
+
+    font-size: 40px;
+    color: gray;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 220px;
+}
+
+.title {
+    font-size: 14px;
+    font-family: Cambria, serif;
+    font-weight: 700;
+    color: #f7a22f;
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.text {
+    color: gray;
+    font-size: 14px;
+}
+.fa-calendar-lines-pen {
+
+    width: 80px;
+
+    font-size: 40px;
+    color: gray;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
