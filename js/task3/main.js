@@ -1,30 +1,30 @@
-//// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-//// for (let i = 0; i < 10; i++) {
-////     document.write(`<div>iasdfqoguafusad</div>`);
-//// }
+// // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+// // for (let i = 0; i < 10; i++) {
+// //     document.write(`<div>iasdfqoguafusad</div>`);
+// // }
 //
-//// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
-//// for (let i = 0; i < 10; i++) {
-////     document.write(`<div>index of iteration is -  ${i}</div>`);
-////
-//// }
+// // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+// // for (let i = 0; i < 10; i++) {
+// //     document.write(`<div>index of iteration is -  ${i}</div>`);
+// //
+// // }
 //
-//// - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-////
-//// let i = 0;
-//// while (i < 20) {
-////     document.write(`<div>asldhasdjhasdf</div>`);
-////     i++;
-//// }
+// // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+// //
+// // let i = 0;
+// // while (i < 20) {
+// //     document.write(`<div>asldhasdjhasdf</div>`);
+// //     i++;
+// // }
 //
-//// - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-////
-//// let i = 0;
-//// while (i < 20) {
-////     document.write(`<div>index -  ${i}</div>`);
-////     i++;
-//// }
-
+// // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+// //
+// // let i = 0;
+// // while (i < 20) {
+// //     document.write(`<div>index -  ${i}</div>`);
+// //     i++;
+// // }
+//
 // let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 //
 // document.write('<ul>');
@@ -32,8 +32,8 @@
 //     document.write(`<li>${item} </li>`);
 // }
 // document.write('</ul>');
-
-
+//
+//
 // let products = [
 //     {
 //         title: 'milk',
@@ -67,8 +67,8 @@
 //                     </div>
 //                    `)
 // }
-
-
+//
+//
 // let users = [
 //     {name: 'vasya', age: 31, status: false},
 //     {name: 'petya', age: 30, status: true},
